@@ -1,1 +1,54 @@
 
+/*****************************
+        Globals
+*****************************/
+
+
+html, body{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.container{
+    width: 80%;
+    background-color: #aaa;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*****************************
+Header, Logo and Navigation
+*****************************/
+
+header{
+    background-color: #000;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+}
+
+#logo{
+    float: left;
+}
+
+#logo h1{
+    margin: 0;
+    padding: 0;    
+}
+
+#topNav{
+    float: right;
+}
